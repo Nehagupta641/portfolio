@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Neha Gupta | Frontend Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">Neha Gupta</div>
+      <div class="nav-controls">
+        <button id="theme-toggle" aria-label="Toggle dark/light mode">
+          <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <button id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1>Hi, I'm</h1>
+        <h1>Neha Gupta</h1>
+        <h2>Frontend Developer</h2>
+        <p>Detail-oriented Frontend Developer with over a year of experience in building scalable web applications using
+          React.js,
+          JavaScript, and modern CSS.</p>
+        <div class="hero-buttons">
+          <a href="mailto:nehagupta727504@gmail.com" class="btn">Hire Me</a>
+          <a href="https://github.com/Nehagupta641" class="btn-outline" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="blob-container">
+        <div class="blob"></div>
+        <div class="profile-image">
+          <!-- Replace with your actual image path -->
+          <img src="./nehaImg.png" alt="Neha Gupta">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>My expertise lies in converting complex designs into responsive code while optimizing application
+            performance.
+            I am committed to delivering an exceptional UI/UX experience through clean code and Agile methodologies.</p>
+          <div class="about-buttons">
+            <a href="./Neha_12.pdf" class="btn" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">JavaScript (ES6+)</div>
+        <div class="skill">React.js</div>
+        <div class="skill">HTML5 & CSS</div>
+        <div class="skill">React Hooks</div>
+        <div class="skill">State Management</div>
+        <div class="skill">Responsive Web Design</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">REST API & Postman</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light" id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Frontend Developer, Rashmi Group</h3>
+        <span class="date">June 2025 – Present | Kolkata, WB</span>
+        <ul>
+          <li>Engineered a modular component library in React.js, reducing code duplication by 30%.</li>
+          <li>Orchestrated the integration of RESTful APIs with Axios and custom error handling.</li>
+          <li>Optimized performance using Code Splitting and Lazy Loading, resulting in 20% faster load times.</li>
+          <li>Implemented complex data visualization features using Chart.js.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Frontend Developer, Shashank Sajwan</h3>
+        <span class="date">April 2024 – May 2025 | Noida, UP</span>
+        <ul>
+          <li>Architected and launched 12+ responsive landing pages for high-traffic clients.</li>
+          <li>Crafted advanced CSS animations resulting in a 15% increase in user session duration.</li>
+          <li>Refactored legacy codebases from jQuery to Modern ES6+ JavaScript.</li>
+          <li>Managed project workflows using Git and participated in Agile sprint planning.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>To-Do Application | React.js</h3>
+        <p>Built a task management application using React hooks and LocalStorage for data persistence. Implemented
+          custom
+          filter logic to sort tasks by priority.</p>
+      </div>
+      <div class="project">
+        <h3>Weather Forecast Application | React.js</h3>
+        <p>Developed an application fetching real-time data from external APIs. Utilized Browser Geolocation API for
+          localized updates.</p>
+      </div>
+      <div class="project">
+        <h3>Netflix Homepage Clone | HTML/CSS</h3>
+        <p>Created a Netflix-style layout focusing on responsiveness and basic interactivity. Leveraged SQL queries for
+          simulated content categorization.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light" id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <p><strong>Bachelor of Technology (B.Tech)</strong></p>
+      <p>Madan Mohan Malviya University of Technology</p>
+      <p>CGPA: 7.89 / 10.00</p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:nehagupta727504@gmail.com">nehagupta727504@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/neha-gupta-ng7275/" target="_blank">LinkedIn Profile</a></p>
+      <p>GitHub: <a href="https://github.com/Nehagupta641" target="_blank">GitHub Profile</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Neha Gupta | Built with HTML, CSS & JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
